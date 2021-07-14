@@ -209,6 +209,7 @@ main {
 
 .section-more {
     width: 1056px;
+    padding-bottom: 100px;
 }
 
 .more h2 {
@@ -303,3 +304,75 @@ footer p {
 
 
 /* <!-- ----------------footer-end-Style--------------------- --> */
+
+
+/*---------------------------   Media Queris ----------------------------*/
+
+
+/* -------------------------
+      mobile diveces
+--------------------------- */
+
+@media only screen and (max-width:688px) {
+    header {
+        height: 100%;
+    }
+    .nav-width {
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-name {
+        display: none;
+    }
+    .home-banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .half-width {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .half-width h1 {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pleyers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-more {
+        width: 100%;
+    }
+    .highlights-text {
+        width: 100%;
+        padding: 10px;
+    }
+    .highlights-text p {
+        padding: 0 10px 10px 5px;
+    }
+    .ImGID {
+        padding-top: 20px;
+    }
+    .moreAll {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer {
+        height: 100%;
+    }
+    .footerDiv {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer img {
+        width: 200px;
+    }
+}
